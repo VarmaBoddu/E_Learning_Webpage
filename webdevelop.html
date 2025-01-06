@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Course</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .navbar {
+            background-color: #343a40 !important;
+        }
+        .navbar .nav-link,
+        .navbar .navbar-brand {
+            color: white !important;
+        }
+        .content {
+            padding: 20px;
+        }
+
+        .footer-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .quiz {
+            margin-top: 30px;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">E-Learn</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="main.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1 class="display-4">Welcome to E-Learn</h1>
+            <img src="e-learning logo image.jpg" alt="LearnPro Logo" width="100" height="100" class="d-inline-block align-text-middle">
+            <p class="lead">Your journey to knowledge starts here.</p>
+        </div>
+    </section>
+
+    <!-- Web Development Course Content -->
+    <section class="content">
+        <h1>Web Development Course</h1>
+        <p>
+            Web Development involves the creation of websites and web applications. 
+            It includes a combination of client-side and server-side technologies to build interactive and dynamic web pages.
+
+            This course covers HTML, CSS, JavaScript, and other essential technologies for building modern web applications.
+        </p>
+
+        <h2>Web Development Video Tutorial</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UB1O30fR-EE" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="footer-buttons">
+            <a href="courses.html" class="btn btn-secondary">Back to Courses</a>
+            <a href="#quiz" class="btn btn-primary">Quiz</a>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="content quiz">
+        <h2>Web Development Quiz</h2>
+        <form>
+            <div class="mb-3">
+                <label for="q1" class="form-label">1. What is HTML?</label>
+                <input type="text" class="form-control" id="q1">
+            </div>
+            <div class="mb-3">
+                <label for="q2" class="form-label">2. What does CSS stand for?</label>
+                <input type="text" class="form-control" id="q2">
+            </div>
+            <div class="mb-3">
+                <label for="q3" class="form-label">3. What is JavaScript used for in web development?</label>
+                <input type="text" class="form-control" id="q3">
+            </div>
+            <div class="mb-3">
+                <label for="q4" class="form-label">4. What is a responsive web design?</label>
+                <input type="text" class="form-control" id="q4">
+            </div>
+            <div class="mb-3">
+                <label for="q5" class="form-label">5. What is the purpose of a web server?</label>
+                <input type="text" class="form-control" id="q5">
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 E-Learn. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
